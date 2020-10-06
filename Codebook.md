@@ -19,6 +19,7 @@ Variables
 561 features
 6 types of activity
 30 subjects
+
 This variables were included in the following files from the source data:
 
 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -28,7 +29,9 @@ This variables were included in the following files from the source data:
 'train/y_train.txt': Training labels.
 'test/X_test.txt': Test set.
 'test/y_test.txt': Test labels.
+
 Tidy data
+
 Source data has been processed with run_analysis.R script that does the following:
 
 Merges the training and the test sets to create one data set called oneDataSet
@@ -40,6 +43,7 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Calculate average of each variable for each activity and each subject.
 
 Final variables
+
 [1] "subjectId" "Activity" "tBodyAcc-mean-X"
 [4] "tBodyAcc-mean-Y" "tBodyAcc-mean-Z" "tBodyAcc-std-X"
 [7] "tBodyAcc-std-Y" "tBodyAcc-std-Z" "tGravityAcc-mean-X"
@@ -60,7 +64,8 @@ Final variables
 [52] "fBodyAccJerk-std-X" "fBodyAccJerk-std-Y" "fBodyAccJerk-std-Z"
 [55] "fBodyGyro-mean-X" "fBodyGyro-mean-Y" "fBodyGyro-mean-Z"
 [58] "fBodyGyro-std-X" "fBodyGyro-std-Y" "fBodyGyro-std-Z"
-[61] "fBodyAccMag-mean" "fBodyAccMag-std" "fBodyBodyAccJerkMag-mean" [64] "fBodyBodyAccJerkMag-std" "fBodyBodyGyroMag-mean" "fBodyBodyGyroMag-std"
+[61] "fBodyAccMag-mean" "fBodyAccMag-std" "fBodyBodyAccJerkMag-mean" 
+[64] "fBodyBodyAccJerkMag-std" "fBodyBodyGyroMag-mean" "fBodyBodyGyroMag-std"
 [67] "fBodyBodyGyroJerkMag-mean" "fBodyBodyGyroJerkMag-std"
 
 Units:
